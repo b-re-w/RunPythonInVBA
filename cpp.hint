@@ -1,0 +1,2 @@
+#define RUNPYTHON_API __declspec(dllexport)
+#define RUNPYTHON_API __declspec(dllimport)

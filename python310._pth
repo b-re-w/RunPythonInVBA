@@ -1,0 +1,13 @@
+Python/DLLs
+Python/include
+Python/Lib
+Python/libs
+Python/Scripts
+Python/tcl
+Python/Tools
+Python/Lib/site-packages
+Python
+.
+
+# Uncomment to run site.main() automatically
+import site
