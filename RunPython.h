@@ -15,7 +15,7 @@
 #define MESSAGE_LEN 10000
 
 
-extern "C" RUNPYTHON_API wchar_t * runPythonInC(int argc, LPCWSTR *args);
+//extern "C" RUNPYTHON_API wchar_t * runPythonInC(int argc, LPCWSTR *args);
 extern "C" RUNPYTHON_API VARIANT _stdcall runPython(int argc, LPCWSTR *args);
 extern "C" RUNPYTHON_API VARIANT _stdcall runPythonTest(void);
 extern "C" RUNPYTHON_API int _stdcall runPythonGUITest(void);

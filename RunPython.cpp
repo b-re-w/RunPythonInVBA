@@ -13,7 +13,7 @@ char * wcharToChar(const wchar_t * pwstrSrc) {
     return pstrDest;
 }
 
-
+/*
 RUNPYTHON_API wchar_t * runPythonInC(int argc, LPCWSTR *args) {
     PyObject *pName, *pModule, *pFunc;
     PyObject *pArgs, *pValue;
@@ -82,7 +82,7 @@ RUNPYTHON_API wchar_t * runPythonInC(int argc, LPCWSTR *args) {
         exit(120);
     }
     return result;
-}
+}*/
 
 
 RUNPYTHON_API VARIANT _stdcall runPython(int argc, LPCWSTR *args) {

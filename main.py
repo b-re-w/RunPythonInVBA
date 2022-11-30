@@ -1,3 +1,4 @@
+import os
 import sys
 import json
 import traceback
@@ -42,8 +43,8 @@ def test_msgbox():
     msgbox.showinfo("MessageBox", "Hello world")
 
 
-def test_gui(a, b):
-    print(a, b)
+def test_gui():
+    print(3, 5)
     tk = Tk()
     tk.title('길이 변환기')
 
